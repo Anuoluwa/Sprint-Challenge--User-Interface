@@ -257,7 +257,7 @@ a:link {
         top: 0;
         right: -20px;
         transition: 0.5s;
-        color: green;
+        color: rgb(101, 250, 101);
       }
       
       button:hover span {
