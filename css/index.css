@@ -166,18 +166,10 @@ a:link {
     text-decoration: none;
   }
   
-  a:visited {
-    text-decoration: none;
-  }
-  
   a:hover {
-    text-decoration: underline;
+   color: rgb(116, 116, 116);
   }
   
-  a:active {
-    text-decoration: underline;
-  }
-
   .banner {
       margin-bottom: 25px; 
   }
@@ -249,7 +241,7 @@ a:link {
         position: relative;
         transition: 0.5s;
       }
-      
+
       button span:after {
         content: '\00bb';
         position: absolute;
@@ -259,11 +251,11 @@ a:link {
         transition: 0.5s;
         color: rgb(101, 250, 101);
       }
-      
+
       button:hover span {
         padding-right: 25px;
       }
-      
+
       button:hover span:after {
         opacity: 1;
         right: 0;
