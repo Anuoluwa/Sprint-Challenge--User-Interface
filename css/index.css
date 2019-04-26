@@ -167,12 +167,9 @@ a:link {
   }
   
   a:hover {
-   color: rgb(116, 116, 116);
+   color: rgb(56, 44, 44);
   }
-  
-  a:active {
-    text-decoration: underline;
-  }
+
 
   .banner {
       margin-bottom: 25px; 
